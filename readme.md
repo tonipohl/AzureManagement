@@ -1,5 +1,5 @@
 # Azure Management scripts
-This repository stores some PowerShell scripts for managing Microsoft Azure. Often, it's helpful to use little helpers to manage Azure subscriptions, to get or to deploy resources. I plan to extend this collection from time to time. 
+This repository stores some PowerShell scripts for managing Microsoft Azure. Often, it's helpful to use little scripts to manage Azure subscriptions, to get or to deploy resources and to automate specific tasks. I plan to extend this collection from time to time. 
 
 ## Install the Azure PowerShell Az module
 As prerequesits, you need to have the Azure PowerShell Az module installed on your computer.
