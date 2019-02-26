@@ -1,4 +1,4 @@
-#Azure Management scripts
+# Azure Management scripts
 This repository stores some PowerShell scripts for managing Microsoft Azure. Often, it's helpful to use little helpers to manage Azure subscriptions, to get or to deploy resources. I plan to extend this collection from time to time. 
 
 ## Install the Azure PowerShell Az module
@@ -22,6 +22,6 @@ Select the desired Azure subscription by name:
 Set-AzContext -Subscription 'S6'
 ```
 
-##Run your scripts
+## Run your scripts
 After that, run your PowerShell Az scripts, as for example [get-subscription-inventory.ps1] (https://github.com/tonipohl/AzureManagement/blob/master/get-subscription-inventory.ps1).
 Happy PowerShell-ing!
