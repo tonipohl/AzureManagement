@@ -7,8 +7,7 @@ $result = "C:\Temp\result.csv"
 		| out-file $OutFilePath -encoding ascii
 
 # Loop through the resources and add to the output file
-$resources =  Get-AzResource
-ForEach ($resource in $resources) 
+ForEach ($resource in Get-AzResource) 
 {
 	$AzureSubscription.Name + "," + `
 		$AzureSubscription.SubscriptionId + "," + `
