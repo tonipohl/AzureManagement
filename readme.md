@@ -19,9 +19,10 @@ Get-AzSubscription
 ## Select a subscriptions
 Select the desired Azure subscription by name: 
 ```powershell
-Set-AzContext -Subscription 'S6'
+Set-AzContext -Subscription '<subscriptionname>'
 ```
 
 ## Run your scripts
-After that, run your PowerShell Az scripts, as for example [get-subscription-inventory.ps1] (https://github.com/tonipohl/AzureManagement/blob/master/get-subscription-inventory.ps1).
+After that, run your PowerShell Az scripts, as for example [get-subscription-inventory.ps1](https://github.com/tonipohl/AzureManagement/blob/master/get-subscription-inventory.ps1).
+
 Happy PowerShell-ing!
