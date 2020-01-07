@@ -4,7 +4,7 @@
 $result = "C:\Temp\result.csv" 
 
 "SubscriptionName,SubscriptionId,Resource,Name,ResourceGroupName,ResourceId" `
-		| out-file $OutFilePath -encoding ascii
+		| out-file $result -encoding ascii
 
 # Loop through the resources and add to the output file
 ForEach ($resource in Get-AzResource) 
